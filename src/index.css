@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Vazir;
+    src: url("./assets/fonts/Vazir.ttf");
+  }
+  .buttonsShadow {
+    border: 1px solid rgba(6, 35, 91, 0.19);
+    box-shadow: 4px 4px 4px #000000;
+  }
+  .EllipseShadowInit {
+    box-shadow: inset 0px 0px 33px #000000;
+  }
+  .heroSectionShadow {
+    box-shadow: 17px 10px 4px rgba(0, 0, 0, 0.25);
+  }
+}
