@@ -1,13 +1,12 @@
-import Header from "./components/Header/Header"
-import HeroSection from "./components/Landing/heroSection"
+import { Fragment } from "react"
+import ApplicationRouter from "./routes/router"
 
 function App() {
 
   return (
-    <>
-      <Header />
-      <HeroSection />
-    </>
+    <Fragment>
+      <ApplicationRouter />
+    </Fragment>
   )
 }
 
