@@ -4,8 +4,12 @@
 
 @layer base {
   @font-face {
-    font-family: Vazir;
-    src: url("./assets/fonts/Vazir.ttf");
+    font-family: SahelBold;
+    src: url("./assets/fonts/Sahel-Black.ttf");
+  }
+  @font-face {
+    font-family: SahelMedium;
+    src: url("./assets/fonts/Sahel.ttf");
   }
   .buttonsShadow {
     border: 1px solid rgba(6, 35, 91, 0.19);
