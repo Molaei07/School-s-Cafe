@@ -8,7 +8,7 @@ const ShareButtons = ({ name, backgroundColor, borderRadius, textColor, address,
             to={address}
             className={`
                 ${backgroundColor ? "bg-darkYellow" : "bg-transparent"}
-                px-6 py-2 font-semibold border-2 border-darkYellow buttonsShadow
+                px-6 py-2 font-semibold border-2 border-darkYellow buttonsShadow font-SahelMedium
             `}
         >{name}</Link>
     )
